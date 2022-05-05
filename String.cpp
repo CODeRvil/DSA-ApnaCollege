@@ -14,6 +14,6 @@ int main(){
     // to convert x into a string use to_string(x);
     // to sort a string use the same sort(arr, arr+i); func like sort(str.begin(), str.end());
     // to manipulate a string/array use transform(); [gives more control than toupper() and tolower()]
-    cout<<"hellow world";
+
     return 0;
 }
