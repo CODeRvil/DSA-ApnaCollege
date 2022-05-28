@@ -14,7 +14,7 @@ int main(){
 
     int currentSum = 0, maxSum = INT_MIN;
 
-    for(int i=0; i<n; i++){
+    for(int i=0; i<n; i++){     //fails for a condition....Which one?
         currentSum += arr[i];
         if(currentSum<0) currentSum = 0;
         maxSum = max(maxSum, currentSum);
